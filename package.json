@@ -1,9 +1,10 @@
 {
     "name": "@rbxts/transform-uuid",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Compile time UUID transformer",
     "main": "out/index.js",
-    "files": ["out"],
+    "types": "index.d.ts",
+    "files": ["out", "index.d.ts"],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/mathfox/rbx-transform-uuid.git"
