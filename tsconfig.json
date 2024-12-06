@@ -1,18 +1,22 @@
 {
     "compilerOptions": {
+        "strict": true,
         "allowSyntheticDefaultImports": true,
         "downlevelIteration": true,
         "module": "CommonJS",
         "moduleResolution": "Node",
-        "noLib": true,
-        "esModuleInterop": true,
+        "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
         "moduleDetection": "force",
-        "strict": true,
         "target": "ESNext",
-        "typeRoots": [
-            "node_modules/@rbxts"
+        "lib": [
+            "ESNext",
+            "DOM"
         ],
+        "esModuleInterop": true,
+        "exactOptionalPropertyTypes": true,
+        "noImplicitOverride": true,
+        "noPropertyAccessFromIndexSignature": true,
         "rootDir": "src",
         "outDir": "out",
     },
