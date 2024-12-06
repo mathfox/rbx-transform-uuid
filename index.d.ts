@@ -1,3 +1,3 @@
 declare global {
-    export const $UUID: string;
+    const $UUID: string;
 }
