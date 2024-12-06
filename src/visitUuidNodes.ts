@@ -6,6 +6,7 @@ export function visitUuidNodes(node: ts.Node, state: TransformState): ts.Node {
     const f = state.context.factory;
 
     if (!ts.isIdentifier(node)) return node;
+    if (node.getText() !== "$UUID") return node;
 
     const gen = f.createStringLiteral(uuid());
 
