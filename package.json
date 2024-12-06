@@ -1,6 +1,6 @@
 {
     "name": "@rbxts/transform-uuid",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Compile time UUID transformer",
     "main": "out/index.js",
     "types": "index.d.ts",
