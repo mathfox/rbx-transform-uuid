@@ -1,0 +1,39 @@
+{
+    "name": "@rbxts/transform-uuid",
+    "version": "0.0.1",
+    "description": "Compile time UUID transformer",
+    "main": "out/index.js",
+    "files": ["out"],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mathfox/rbx-transform-uuid.git"
+    },
+    "keywords": [
+        "roblox",
+        "roblox-ts",
+        "uuid",
+        "transform",
+        "transformer"
+    ],
+    "author": {
+        "name": "Ivan Leontev",
+        "url": "https://github.com/mathfox"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mathfox/rbx-transform-uuid/issues"
+    },
+    "homepage": "https://github.com/mathfox/rbx-transform-uuid#readme",
+    "publishConfig": {
+        "access": "public"
+    },
+    "devDependencies": {
+        "@rbxts/compiler-types": "^3.0.0-types.0",
+        "@types/node": "^22.10.1",
+        "ts-patch": "^3.3.0",
+        "typescript": "^5.7.2"
+    },
+    "dependencies": {
+        "uuid": "^11.0.3"
+    }
+}
